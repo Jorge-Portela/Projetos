@@ -1,0 +1,158 @@
+/* Colors:
+Background da Página: #2F2E41;
+Letras da Página: #FFFFFF;
+Caixa de texto: #C2C2C2;
+Detalhes  dos Textos: #00BFA6; 
+Linha do Rodapé: #00BFA6; */
+
+/* Fontes:
+   font-family: 'JetBrains Mono', monospace;
+   font-family: 'Open Sans', sans-serif;
+*/
+
+/* Bordas para os "Hovers" dos links:
+    background-color: #2F2E41;
+    border: 1.8px solid #00bfa6 ;
+    border-radius: 4px;
+*/
+
+
+body{
+    background-color: #2F2E41;
+
+    min-height: 100vh;
+}
+
+.page{
+    width: 1092px;
+    margin:0 auto;
+    padding-top: 71px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 101px;
+    
+}
+
+
+nav  a:hover{
+    font-weight: bold;
+    background-color: #2F2E41;
+    border: 1.8px solid #00BFA6;
+    border-radius: 4px;
+}
+
+
+
+#logo img:hover {
+    background-color: #2F2E41;
+    border: 1.8px solid #00BFA6;
+    border-radius: 4px;
+  }
+
+
+nav a:nth-child(1):hover ~ #logo img {
+    background-color: #2F2E41;
+    border: 1.8px solid #00BFA6;
+    border-radius: 4px;
+  }
+
+nav a, ul{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px; 
+    text-decoration-line: none;    
+    color:  #FFFFFF; 
+}
+
+nav li{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+}
+
+
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 157px;
+    text-align: center;
+
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+}
+
+h1{
+    font-size:36px;
+    line-height:40px;
+    margin-bottom: 59px;
+}
+
+h1 span{
+    color:#00BFA6;
+}
+
+section p{
+    font-family: 'Open Sans', sans-serif;
+    color: #C2C2C2;
+    text-align: center; 
+    font-size: 16px;
+    font-weight:28px;
+
+}
+
+p span{
+    color:#00BFA6;
+    font-weight: bold;
+}
+
+footer {
+    font-family: 'JetBrains Mono', monospace;
+    text-align: center;
+    margin: 0 auto;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height:28px;
+}
+
+
+#line{
+    align-items: center;
+    border: 1px solid #00bfa6;
+    width: 568px;
+    margin: 0 auto 27px;
+}
+
+
+footer a{
+    text-decoration: none;
+    color:  #fff;
+}
+
+footer a:hover{
+    font-weight: bolder;
+    background-color: #2F2E41;
+    border: 1.8px solid #00bfa6 ;
+    border-radius: 4px;
+}
+
+#padlock{
+    position: fixed;
+    bottom:0;
+    left:0;
+}
+
+
+
+
+
+
